@@ -146,7 +146,7 @@ const HeaderRow = React.createClass({
 
   setScrollLeft(scrollLeft: number) {
     this.props.columns.forEach( (column, i) => {
-      if (column.locked) {
+      if (column.locked && this.cells[i]) {
         this.cells[i].setScrollLeft(scrollLeft);
       }
     });
