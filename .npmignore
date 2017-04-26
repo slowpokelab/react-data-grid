@@ -27,3 +27,5 @@ themes
 migrations
 docs
 .github
+packages/react-data-grid-addons
+packages/react-data-grid-examples
