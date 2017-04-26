@@ -1,10 +1,10 @@
 {
-  "name": "custom-react-data-grid",
+  "name": "react-data-grid-wrapper",
   "version": "2.0.1",
   "description": "Data grid for React",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "cd ..&& cd ..&& npm i ./node_modules/custom-react-data-grid/packages/react-data-grid/"
+    "postinstall": "cd ..&& cd ..&& npm i ./node_modules/react-data-grid-wrapper/packages/react-data-grid/&& cd node_modules&& rmdir /s /q react-data-grid-wrapper"
   },
   "repository": {
     "type": "git",
