@@ -19,3 +19,11 @@ secure-file
 flow
 ci
 npm-debug.log
+webpack-dev-server.js
+README.md
+lerna-debug.log
+lerna.json
+themes
+migrations
+docs
+.github
