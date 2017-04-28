@@ -4,7 +4,7 @@
   "description": "Data grid for React",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "cd ..&& cd ..&& npm i ./node_modules/react-data-grid-wrapper/packages/react-data-grid/&& cd node_modules&& rmdir /s /q react-data-grid-wrapper"
+    "postinstall": "cd ..&& cd ..&& npm i ./node_modules/react-data-grid-wrapper/packages/react-data-grid/"
   },
   "repository": {
     "type": "git",
